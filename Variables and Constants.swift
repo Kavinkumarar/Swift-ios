@@ -10,7 +10,6 @@ semester += 1
 cgpa = 8.50
 
 print("Name: \(studentName), Roll: \(rollNumber), Semester: \(semester), CGPA: \(cgpa)")
-
 print(type(of: studentName))
 print(type(of: rollNumber))
 print(type(of: semester))
