@@ -1,0 +1,15 @@
+var a = 20
+var b = 10
+var operation = "*"
+switch operation {
+case "+":
+    print(a + b)
+case "-":
+    print(a - b)
+case "*":
+    print(a * b)
+case "/":
+    print(a / b)
+default:
+    print("Invalid operation")
+}
