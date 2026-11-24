@@ -1,0 +1,18 @@
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Text("SwiftUI")
+            Text("Vertical Layout")
+        }
+        HStack {
+            Text("Hello")
+            Text("World")
+        }
+        ZStack {
+            Color.yellow
+            Text("Welcome")
+        }
+    }
+}
